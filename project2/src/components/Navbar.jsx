@@ -12,13 +12,13 @@ const Navbar = () => {
         <input
           item="checkbox"
           placeholder="New York"
-          className="bg-gray-300 border-2 outline-none text-[18px] w-1/3 rounded-full p-2"
+          className="bg-gray-300 text-black border-2 outline-none text-[16px] w-1/3 rounded-full p-2"
         />
         <div className="search flex items-center justify-center rounded-full bg-gray-300">
           <input
             item="text"
             placeholder="UI UX Designer"
-            className=" w-3/4 text-[18px] outline-none p-2 "
+            className=" w-3/4 text-[16px] text-black outline-none p-2 "
           />
           <Search size={25} />
         </div>
